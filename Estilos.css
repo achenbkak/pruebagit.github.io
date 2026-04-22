@@ -1,0 +1,52 @@
+       .menu {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            padding: 0;
+            flex-wrap: wrap;
+        }
+        
+        .navegacion {
+            background: linear-gradient(135deg, #d3653a 0%, #e64a35 50%, #e21b1b 100%);
+            padding: 10px 0;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: 1000;
+            font-size: 1.5rem;
+            padding: 10px;
+            display: block;
+        }
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(252, 195, 174);
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            min-height: 100vh;
+            margin:0;
+        }
+
+        section{
+            margin: 2rem;
+            border-left: 3px solid #e21b1b;
+            padding: 0.8rem 2rem;
+            background: linear-gradient(135deg,white,white);
+        }
+        h1{
+           color: rgb(206, 44, 44); 
+        }
+        .div{
+            text-align: center;
+            font-family: "Poppins";
+        }
+        .contactos{
+            background: linear-gradient(135deg, #d3653a 0%, #e64a35 50%, #e21b1b 100%);
+            text-align: center;
+        }
+        .centrar{
+            display: flex;
+            justify-content: space-evenly;
+        }
